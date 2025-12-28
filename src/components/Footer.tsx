@@ -58,7 +58,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="#services"
+                  href="/#services"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   Serviços
@@ -66,7 +66,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="#testimonials"
+                  href="/#testimonials"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   Depoimentos
@@ -74,7 +74,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="#contact"
+                  href="/#contact"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   Contato

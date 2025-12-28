@@ -33717,13 +33717,15 @@ var NotFound = () => {
 					children: "404"
 				}),
 				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-					className: "text-xl text-gray-600 mb-4",
-					children: "Oops! Page not found"
+					className: "text-xl text-gray-600 mb-8",
+					children: "Oops! Página não encontrada"
 				}),
-				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
-					href: "/",
-					className: "text-blue-500 hover:text-blue-700 underline",
-					children: "Return to Home"
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
+					asChild: true,
+					children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Link, {
+						to: "/",
+						children: "Voltar para Home"
+					})
 				})
 			]
 		})
@@ -34255,17 +34257,17 @@ function Footer() {
 								children: "Home"
 							}) }),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
-								href: "#services",
+								href: "/#services",
 								className: "text-gray-400 hover:text-white transition-colors",
 								children: "Serviços"
 							}) }),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
-								href: "#testimonials",
+								href: "/#testimonials",
 								className: "text-gray-400 hover:text-white transition-colors",
 								children: "Depoimentos"
 							}) }),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
-								href: "#contact",
+								href: "/#contact",
 								className: "text-gray-400 hover:text-white transition-colors",
 								children: "Contato"
 							}) })
@@ -34408,4 +34410,4 @@ var App = () => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(BrowserRouter, {
 var App_default = App;
 (0, import_client.createRoot)(document.getElementById("root")).render(/* @__PURE__ */ (0, import_jsx_runtime.jsx)(App_default, {}));
 
-//# sourceMappingURL=index-CccVAKGJ.js.map
+//# sourceMappingURL=index-BJuQKlJ9.js.map
