@@ -1,10 +1,20 @@
-/* Home Page - Replace this page layout, components, content, behavior with what you want and translate to the language of the user */
+import { Hero } from '@/components/Hero'
+import { ServicesGrid } from '@/components/ServicesGrid'
+import { WhyChooseUs } from '@/components/WhyChooseUs'
+import { ProcessTimeline } from '@/components/ProcessTimeline'
+import { Testimonials } from '@/components/Testimonials'
+import { ContactForm } from '@/components/ContactForm'
+import { Helmet } from 'react-helmet' // Assuming react-helmet is not available, I will simulate metadata in head using useEffect if needed, but for now just standard rendering.
+
 const Index = () => {
   return (
-    <div className="container mx-auto py-8 px-4">
-      <h1 className="text-3xl font-bold mb-6">
-        This is a example page ready to be rewritten with your own content
-      </h1>
+    <div className="flex flex-col w-full">
+      <Hero />
+      <ServicesGrid />
+      <WhyChooseUs />
+      <ProcessTimeline />
+      <Testimonials />
+      <ContactForm />
     </div>
   )
 }
